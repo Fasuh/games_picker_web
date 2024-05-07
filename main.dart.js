@@ -82571,14 +82571,14 @@ if(!b.d)b.a.$1(new A.rw(o))
 return A.L(null,r)}})
 return A.M($async$DZ,r)},
 Ts(a){var s,r,q,p,o
-try{s=t.a.a(J.b0(a,"categories"))
+try{s=t.a.a(J.b0(a,"anime"))
 q=t.N
 p=t.Bu
 r=J.Zu(s,new A.a0D(),q,p)
 this.fx=A.tU(r,q,p)
 return new A.rw(r)}catch(o){return null}},
 Wa(a){var s=a.a,r=t.N
-return A.aw(["categories",s.j1(s,new A.a0F(),r,t.nA)],r,t.z)}}
+return A.aw(["anime",s.j1(s,new A.a0F(),r,t.nA)],r,t.z)}}
 A.a0B.prototype={
 $0(){return null},
 $S:12}
@@ -82656,7 +82656,7 @@ n=t.z
 m=A.aw(["offset",a.a,"limit",a.b,"q",a.c],o,n)
 l=A
 s=3
-return A.P(p.a.IR(0,"anime",A.az9(A.aw(["X-MAL-CLIENT-ID","ea3a81184ee53dd9403ad4135f5374ac"],o,n)),m,n),$async$kf)
+return A.P(p.a.IR(0,"anime",A.az9(A.aw(["X-MAL-CLIENT-ID","ea3a81184ee53dd9403ad4135f5374ac","Access-Control-Allow-Methods","GET, POST, PUT, DELETE, OPTIONS","Access-Control-Allow-Origin","*"],o,n)),m,n),$async$kf)
 case 3:q=l.aJG(c.a,a)
 s=1
 break
@@ -82871,14 +82871,14 @@ if(!b.d)b.a.$1(new A.rx(o))
 return A.L(null,r)}})
 return A.M($async$Cg,r)},
 Ts(a){var s,r,q,p,o
-try{s=t.a.a(J.b0(a,"categories"))
+try{s=t.a.a(J.b0(a,"games"))
 q=t.N
 p=t.PW
 r=J.Zu(s,new A.a0E(),q,p)
 this.fx=A.tU(r,q,p)
 return new A.rx(r)}catch(o){return null}},
 Wa(a){var s=a.a,r=t.N
-return A.aw(["categories",s.j1(s,new A.a0G(),r,t.nA)],r,t.z)}}
+return A.aw(["games",s.j1(s,new A.a0G(),r,t.nA)],r,t.z)}}
 A.a0C.prototype={
 $0(){return null},
 $S:12}
